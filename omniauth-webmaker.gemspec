@@ -8,6 +8,9 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{An OmniAuth strategy for implementing webmaker-login}
   gem.homepage      = "https://github.com/cadecairos/discourse-webmaker-persona"
 
+  gem.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.files = `git ls-files`.split("\n")
+  gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-webmaker"
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::Webmaker::VERSION
