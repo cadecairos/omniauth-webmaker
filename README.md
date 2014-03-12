@@ -22,9 +22,8 @@ TODO
 
 These are the options you can specify that are relevant to Omniauth Webmaker:
 
-* `:login_server_url` - The URL the login server resides at, including basic auth credentials and path to authenticate route (defaults to `http://testuser:password@localhost:3000/api/user/authenticate`)
+* `:login_server_url` - The URL the login server resides at, including basic auth credentials and path to authenticate route (defaults to `http://localhost:3000/api/user/authenticate`)
 * `:name` - The URL at which the strategy will be available (defaults to `webmaker`)
-* `:audience_url` - The host of your site. Defaults to the `full_host` of OmniAuth (either automatically determined or determined by the `OmniAuth.config.full_host` option)
 
 ## License
 
