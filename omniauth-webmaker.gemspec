@@ -16,10 +16,10 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Webmaker::VERSION
 
   gem.add_dependency "omniauth", "~> 1.0"
-  gem.add_dependency "faraday", "~> 0.9"
-  gem.add_dependency "multi_json", "~> 1.9"
+  gem.add_dependency "faraday"
+  gem.add_dependency "multi_json"
 
-  gem.add_development_dependency "rake", "~> 10.1"
+  gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec", "~> 2.7"
-  gem.add_development_dependency "rack-test", "~> 0.6"
+  gem.add_development_dependency "rack-test"
 end
